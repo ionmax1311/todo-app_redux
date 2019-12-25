@@ -1,0 +1,37 @@
+.todo-item {
+  font-size: 20px;
+  border-bottom: 1px solid #ededed;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 16px 0 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.text {
+  font-family: sans-serif;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.mark {
+  position: absolute;
+  left: 20px;
+}
+
+.close-item {
+  transition: 0.5s;
+}
+
+.close-item:hover {
+  color: red;
+}
